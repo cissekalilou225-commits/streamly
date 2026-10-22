@@ -39,10 +39,8 @@ const films: Film[] = [
     tag: "Licence ouverte",
     description:
       "Un lapin géant et pacifique veut profiter d’une belle journée, mais trois petits animaux viennent perturber sa tranquillité. Court métrage d’animation publié sous licence Creative Commons Attribution.",
-    poster:
-      "https://studio.blender.org/files/5a9a0e5a9a7e3d001a6e6e5f/BigBuckBunny.jpg",
-    backdrop:
-      "https://studio.blender.org/files/5a9a0e5a9a7e3d001a6e6e5f/BigBuckBunny.jpg",
+    poster: "/images/big-buck-bunny.jpg",
+    backdrop: "/images/big-buck-bunny.jpg",
     video: "",
     sourceUrl: "https://studio.blender.org/projects/big-buck-bunny/",
   },
@@ -55,10 +53,8 @@ const films: Film[] = [
     tag: "Licence ouverte",
     description:
       "Une jeune femme part dans un voyage périlleux pour retrouver un petit dragon qui compte beaucoup pour elle. Film d’animation indépendant publié sous licence Creative Commons Attribution.",
-    poster:
-      "https://durian.blender.org/wp-content/uploads/2010/05/sintel_poster.jpg",
-    backdrop:
-      "https://durian.blender.org/wp-content/uploads/2010/05/sintel_poster.jpg",
+    poster: "/images/sintel.jpg",
+    backdrop: "/images/sintel.jpg",
     video: "",
     sourceUrl: "https://studio.blender.org/projects/sintel/",
   },
@@ -71,10 +67,8 @@ const films: Film[] = [
     tag: "Licence ouverte",
     description:
       "Dans une ville futuriste, un groupe de scientifiques tente de sauver le monde grâce à une expérience mêlant technologie et souvenirs. Film publié sous licence Creative Commons Attribution.",
-    poster:
-      "https://mango.blender.org/wp-content/uploads/2013/05/tears_of_steel.jpg",
-    backdrop:
-      "https://mango.blender.org/wp-content/uploads/2013/05/tears_of_steel.jpg",
+    poster: "/images/tears-of-steel.jpg",
+    backdrop: "/images/tears-of-steel.jpg",
     video: "",
     sourceUrl: "https://studio.blender.org/projects/tears-of-steel/",
   },
@@ -86,10 +80,8 @@ const films: Film[] = [
     age: "Tout public",
     description:
       "Deux personnages explorent une étrange machine et un univers surréaliste. Film d’animation expérimental distribué sous licence ouverte.",
-    poster:
-      "https://orange.blender.org/wp-content/themes/orange/images/ed_header.jpg",
-    backdrop:
-      "https://orange.blender.org/wp-content/themes/orange/images/ed_header.jpg",
+    poster: "/images/elephants-dream.jpg",
+    backdrop: "/images/elephants-dream.jpg",
     video: "",
     sourceUrl: "https://studio.blender.org/projects/elephants-dream/",
   },

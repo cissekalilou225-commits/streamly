@@ -1,1 +1,115 @@
 
+.streamly-auth-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.78);
+  backdrop-filter: blur(7px);
+}
+
+.streamly-auth-modal {
+  position: relative;
+  width: min(100%, 430px);
+  padding: 34px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 18px;
+  background: #111;
+  color: #fff;
+  box-shadow: 0 24px 80px rgba(0, 0, 0, 0.5);
+}
+
+.streamly-auth-close {
+  position: absolute;
+  top: 12px;
+  right: 14px;
+  border: 0;
+  background: transparent;
+  color: #aaa;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+.streamly-auth-brand {
+  color: #f04444;
+  font-size: 13px;
+  font-weight: 900;
+  letter-spacing: 0.18em;
+}
+
+.streamly-auth-modal h2 {
+  margin: 14px 0 6px;
+  font-size: 28px;
+}
+
+.streamly-auth-subtitle {
+  margin: 0 0 24px;
+  color: #aaa;
+  font-size: 14px;
+}
+
+.streamly-auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.streamly-auth-form label {
+  margin-top: 7px;
+  color: #ddd;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.streamly-auth-form input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 13px 14px;
+  border: 1px solid #333;
+  border-radius: 9px;
+  outline: none;
+  background: #1b1b1b;
+  color: #fff;
+}
+
+.streamly-auth-form input:focus {
+  border-color: #f04444;
+}
+
+.streamly-auth-submit {
+  margin-top: 12px;
+  padding: 13px 16px;
+  border: 0;
+  border-radius: 9px;
+  background: #e53939;
+  color: #fff;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.streamly-auth-submit:disabled {
+  opacity: 0.6;
+  cursor: wait;
+}
+
+.streamly-auth-message {
+  margin: 14px 0 0;
+  color: #f5b8b8;
+  font-size: 13px;
+  overflow-wrap: anywhere;
+}
+
+.streamly-auth-switch {
+  display: block;
+  width: 100%;
+  margin-top: 16px;
+  border: 0;
+  background: transparent;
+  color: #ddd;
+  cursor: pointer;
+  font-size: 13px;
+}
+

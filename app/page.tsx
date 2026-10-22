@@ -1,6 +1,4 @@
-
-
-"use client";
+use client";
 
 import { useMemo, useState } from "react";
 import {
@@ -42,11 +40,11 @@ const films: Film[] = [
     description:
       "Un lapin géant et pacifique veut profiter d’une belle journée, mais trois petits animaux viennent perturber sa tranquillité. Court métrage d’animation publié sous licence Creative Commons Attribution.",
     poster:
-      "https://images.unsplash.com/photo-1535268647677-300dbf3d78d1?auto=format&fit=crop&w=800&q=85",
+      "https://studio.blender.org/files/5a9a0e5a9a7e3d001a6e6e5f/BigBuckBunny.jpg",
     backdrop:
-      "https://images.unsplash.com/photo-1535268647677-300dbf3d78d1?auto=format&fit=crop&w=1800&q=85",
+      "https://studio.blender.org/files/5a9a0e5a9a7e3d001a6e6e5f/BigBuckBunny.jpg",
     video: "",
-    sourceUrl: "https://studio.blender.org/films/big-buck-bunny/",
+    sourceUrl: "https://studio.blender.org/projects/big-buck-bunny/",
   },
   {
     id: 2,
@@ -58,11 +56,11 @@ const films: Film[] = [
     description:
       "Une jeune femme part dans un voyage périlleux pour retrouver un petit dragon qui compte beaucoup pour elle. Film d’animation indépendant publié sous licence Creative Commons Attribution.",
     poster:
-      "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=85",
+      "https://durian.blender.org/wp-content/uploads/2010/05/sintel_poster.jpg",
     backdrop:
-      "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1800&q=85",
+      "https://durian.blender.org/wp-content/uploads/2010/05/sintel_poster.jpg",
     video: "",
-    sourceUrl: "https://studio.blender.org/films/sintel/",
+    sourceUrl: "https://studio.blender.org/projects/sintel/",
   },
   {
     id: 3,
@@ -74,11 +72,11 @@ const films: Film[] = [
     description:
       "Dans une ville futuriste, un groupe de scientifiques tente de sauver le monde grâce à une expérience mêlant technologie et souvenirs. Film publié sous licence Creative Commons Attribution.",
     poster:
-      "https://images.unsplash.com/photo-1519608487953-e999c86e7455?auto=format&fit=crop&w=800&q=85",
+      "https://mango.blender.org/wp-content/uploads/2013/05/tears_of_steel.jpg",
     backdrop:
-      "https://images.unsplash.com/photo-1519608487953-e999c86e7455?auto=format&fit=crop&w=1800&q=85",
+      "https://mango.blender.org/wp-content/uploads/2013/05/tears_of_steel.jpg",
     video: "",
-    sourceUrl: "https://studio.blender.org/films/tears-of-steel/",
+    sourceUrl: "https://studio.blender.org/projects/tears-of-steel/",
   },
   {
     id: 4,
@@ -89,11 +87,11 @@ const films: Film[] = [
     description:
       "Deux personnages explorent une étrange machine et un univers surréaliste. Film d’animation expérimental distribué sous licence ouverte.",
     poster:
-      "https://images.unsplash.com/photo-1509316785289-025f5b846b35?auto=format&fit=crop&w=800&q=85",
+      "https://orange.blender.org/wp-content/themes/orange/images/ed_header.jpg",
     backdrop:
-      "https://images.unsplash.com/photo-1509316785289-025f5b846b35?auto=format&fit=crop&w=1800&q=85",
+      "https://orange.blender.org/wp-content/themes/orange/images/ed_header.jpg",
     video: "",
-    sourceUrl: "https://studio.blender.org/films/elephants-dream/",
+    sourceUrl: "https://studio.blender.org/projects/elephants-dream/",
   },
 ];
 

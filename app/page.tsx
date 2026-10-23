@@ -609,8 +609,8 @@ export default function Home() {
             </p>
           </section>
         </div>
-      )}
-        
+        )}
+       
         <AuthModal
           open={authOpen}
           onClose={() => setAuthOpen(false)}

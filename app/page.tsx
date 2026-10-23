@@ -259,7 +259,7 @@ export default function Home() {
           ))}
         </nav>
 
-        <div className="nav-actions">
+               <div className="nav-actions">
           {searchOpen && (
             <input
               autoFocus
@@ -269,6 +269,7 @@ export default function Home() {
               placeholder="Rechercher un titre..."
             />
           )}
+
           <button
             className="icon-button"
             aria-label="Rechercher"
@@ -276,6 +277,7 @@ export default function Home() {
           >
             <Search size={20} />
           </button>
+
           <button
             className="icon-button notification"
             aria-label="Notifications"
@@ -286,15 +288,15 @@ export default function Home() {
             }
           >
             <Bell size={19} />
-      
-<button
-  className="profile-button"
-  aria-label="Connexion ou inscription"
-  onClick={() => setAuthOpen(true)}
->
-  <UserRound size={18} />
-</button>
+          </button>
 
+          <button
+            className="profile-button"
+            aria-label="Connexion ou inscription"
+            onClick={() => setAuthOpen(true)}
+          >
+            <UserRound size={18} />
+          </button>
         </div>
       </header>
 

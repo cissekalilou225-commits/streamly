@@ -1,7 +1,7 @@
 ```tsx
 import type { Metadata } from "next";
 import "./globals.css";
-import "../Composants/auth-styles.css";
+import "../composants/auth-styles.css";
 
 export const metadata: Metadata = {
   title: "Streamly — Films et séries",

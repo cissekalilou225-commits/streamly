@@ -14,7 +14,7 @@ import {
   UserRound,
   X,
 } from "lucide-react";
-import AuthModal from "../Composants/AuthModal";
+import AuthModal from "../composants/AuthModal";
 
 type Film = {
   id: number;

@@ -1,4 +1,4 @@
-```tsx
+
 import type { Metadata } from "next";
 import "./globals.css";
 import "../composants/auth-styles.css";
@@ -17,4 +17,3 @@ export default function RootLayout({
     </html>
   );
 }
-```

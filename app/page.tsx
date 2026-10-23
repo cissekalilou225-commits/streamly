@@ -14,6 +14,7 @@ import {
   UserRound,
   X,
 } from "lucide-react";
+import AuthModal from "../Composants/AuthModal";
 
 type Film = {
   id: number;
@@ -196,9 +197,9 @@ export default function Home() {
   const [playing, setPlaying] = useState<Film | null>(null);
   const [searchOpen, setSearchOpen] = useState(false);
   const [tab, setTab] = useState("Accueil");
+  const [authOpen, setAuthOpen] = useState(false);
 
   const hero = films[0];
-
   const filtered = useMemo(
     () =>
       films.filter(
@@ -285,18 +286,15 @@ export default function Home() {
             }
           >
             <Bell size={19} />
-          </button>
-          <button
-            className="profile-button"
-            aria-label="Profil"
-            onClick={() =>
-              alert(
-                "Les comptes utilisateurs seront ajoutés dans une prochaine étape.",
-              )
-            }
-          >
-            <UserRound size={18} />
-          </button>
+      
+<button
+  className="profile-button"
+  aria-label="Connexion ou inscription"
+  onClick={() => setAuthOpen(true)}
+>
+  <UserRound size={18} />
+</button>
+
         </div>
       </header>
 
@@ -612,6 +610,11 @@ export default function Home() {
           </section>
         </div>
       )}
-    </main>
+        
+        <AuthModal
+          open={authOpen}
+          onClose={() => setAuthOpen(false)}
+      />
+      </main>
   );
 }
